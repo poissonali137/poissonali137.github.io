@@ -9,7 +9,7 @@ export interface Education {
 
 export const educationData: Education[] = [
   {
-    year: "2021—2024",
+    year: "Graduated 2024",
     institution: "University of Rochester",
     degree: "Mathematics BS (Honors), GPA: 3.89/4.0",
   },
