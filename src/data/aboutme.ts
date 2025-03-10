@@ -18,22 +18,16 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
-  // Note that links work in the description
+  name: "Aliya (Ali) Rahim",
+  title: "Mathematics BS (Honors)",
+  institution: "University of Rochester",
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+    "I'm a Mathematics graduate with expertise in machine learning, formal verification, and probabilistic modeling. My work spans across developing LLMs for formal mathematics, implementing geometric deep learning solutions, and building robust AI systems. <br> <br> I'm passionate about applying rigorous mathematical principles to solve complex engineering challenges, and I'm seeking ML Engineer roles where I can leverage this unique combination of skills.",
+  email: "aabdulra@u.rochester.edu",
+  // Using a placeholder image - you may want to replace this with your actual photo
+  imageUrl: "/ali_avatar.jpeg",
+  githubUsername: "poissonali137",
+  linkedinUsername: "aabdulra ",
+  institutionUrl: "https://www.rochester.edu",
+  altName: "(he/him)",
 };

@@ -12,28 +12,25 @@ export interface Publication {
 }
 
 export const publicationData: Publication[] = [
-  // If you don't want to show publications, just make the array empty.
   {
     year: "2024",
-    conference: "NeurIPS",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
-    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
-    // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
+    conference: "NeurIPS Math-AI Workshop",
+    title: "Probabilistic Proof State Compression: Optimizing LLM-Guided Formal Verification",
+    authors: "Ali Rahim",
+    tldr: "Novel compression methods that improve the interpretability of formal reasoning, enabling humans to better understand reasoning trajectories in AI-generated proofs.",
   },
   {
-    year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    year: "2024",
+    conference: "EaGL Workshop",
+    title: "What formal languages can transformers learn in context?",
+    authors: "Ali Rahim, Noor Rahim",
+    tldr: "Investigated the ability of LLMs to learn and reason about formal languages across the Chomsky hierarchy, derived empirical and theoretical bounds on number of samples needed to generate from a given language.",
+  },
+  {
+    year: "2021",
+    conference: "BraTS Challenge Proceedings",
+    title: "Efficient Training of Group Equivariant Vision Transformer for Medical Image Segmentation",
+    authors: "Ali Rahim, Noor Rahim, Akm Rahman",
+    award: "🏆",
   },
 ];
