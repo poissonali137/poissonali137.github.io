@@ -38,5 +38,6 @@ export const experienceData: Experience[] = [
     company: "Prana.ai",
     description:
       "Made LiDAR systems for self-driving vehicles 4x cheaper and more effective with geometric deep learning + digital signal processing based super resolution. Generated 4x-8x denser point clouds without hallucination artifacts. Led an engineering team of 5 members. Funded by First Round Capital, Columbia University, UofR, NVIDIA Inception.",
+    companyUrl: "https://prana.ai"
   },
 ];

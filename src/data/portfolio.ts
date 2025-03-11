@@ -12,18 +12,20 @@ export const portfolioData: Portfolio[] = [
     title: "Gated Transformer Model",
     description: "Implemented a novel transformer architecture inspired by brain-selective communication patterns, introducing a learnable gating mechanism based on layer hidden states. While maintaining baseline GPT-2 performance, this exploration suggests potential applications in Mixture of Experts (MoE) models.",
     technologies: ["Python", "PyTorch", "Transformers", "Deep Learning", "Neural Architecture Design"],
-    codeUrl: "https://github.com/poissonali137/gated-transformers"
+    codeUrl: "https://github.com/poissonali137/experiments/blob/main/GatedTransformer"
   },
   {
     title: "Fast Approximation of Lévy Processes with Diffusion Models",
     description:
-      "Developed a neural network approach to model Lévy processes up to 10,000x faster than numerical methods, leveraging Lévy-Ito decomposition and universal approximation theorems for provable convergence guarantees.",
+      "Developed a neural network approach to simulate Lévy processes up to 10,000x faster than numerical methods, leveraging Lévy-Ito decomposition and universal approximation theorems for provable convergence guarantees.",
     technologies: ["Python", "PyTorch", "Stochastic Calculus", "Probability Theory"],
+    projectUrl: "/projects/levy_processes.pdf"
   },
   {
     title: "Recurrent Transformers for Weak-to-Strong Generalization",
     description: "Replicated and extended research on achieving weak-to-strong generalization through stacked transformers with additive residual connections. Successfully demonstrated effectiveness on arithmetic tasks using Abacus embeddings, while exploring integration with gated transformers for dynamic recurrence and exit strategies.",
     technologies: ["Python", "PyTorch", "Transformers", "Deep Learning", "Mathematical Reasoning"],
+    codeUrl: "https://github.com/poissonali137/experiments/tree/main/RecurrentTransformer"
   },
   {
     title: "Emacs-Based AI Coding Assistant",
