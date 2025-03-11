@@ -29,7 +29,7 @@ export const portfolioData: Portfolio[] = [
   },
   {
     title: "Emacs-Based AI Coding Assistant",
-    description: "I was annoyed by having to use VSCode etc. for AI tools so I built a Cursor clone in Emacs using Elisp, featuring a local code RAG system integrated with LSP bindings, vector embeddings in pgvector, and an intelligent code modification interface. Created to provide a more customizable and efficient AI-powered development environment within Emacs.",
+    description: "I was annoyed by having to use VSCode etc. for AI tools so I built a Cursor clone in Emacs using Elisp, featuring a local code RAG system integrated with LSP bindings, vector embeddings in pgvector, and a local code diff-merge-apply model based on Qwen2.5-Coder. Created to provide a more customizable and efficient AI-powered development environment within Emacs.",
     technologies: ["Emacs Lisp", "PostgreSQL", "Vector Embeddings", "LSP", "RAG Systems"],
   },
   {
